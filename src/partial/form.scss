@@ -1,30 +1,31 @@
 button{
     font-family: 'Source Code Pro', monospace;
-    background: #000;
-    color: #fff;
+    background: $color-black;
+    color: $color-white;
     padding: 4px 10px;
     border: unset;
     cursor: pointer;
+    margin-inline: 1em;
 }
 select, input{
     margin: 0px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Source Code Pro', monospace;
     display: block;
     width: 100%;
-    background: #fff;
-    color: #000;
+    background: $color-white;
+    color: $color-black;
     padding: 4px 10px;
-    border: 2px solid black;
+    border: 2px solid $color-black;
 }
 textarea{
     font-family: 'Source Code Pro', monospace;
     display: block;
     width: 100%;
     height: 5em;
-    background: #fff;
-    color: #000;
+    background: $color-white;
+    color: $color-black;
     padding: 4px 10px;
-    border: 2px solid black;
+    border: 2px solid $color-black;
     resize: none;
 }
 input[type="range"] {
@@ -39,7 +40,7 @@ input[type="range"]::-webkit-slider-thumb {
     appearance: none;
     height: 20px;
     width: 20px;
-    background: #000;
+    background: $color-black;
     transition: background 0.15s ease;
 }
 input[type="range"]::-moz-range-thumb {
@@ -47,18 +48,22 @@ input[type="range"]::-moz-range-thumb {
     appearance: none;
     height: 20px;
     width: 20px;
-    background: #000;
+    background: $color-black;
     transition: background 0.15s ease;
 }
 input[type="radio"] {
     margin: 1em;
-    accent-color: #000;
+    accent-color: $color-black;
     transform: scale(1.2);
+    display: inline;
+    width: unset;
 }
 input[type="checkbox"] {
     margin: 1em;
-    accent-color: #000;
+    accent-color: $color-black;
     transform: scale(1.2);
+    display: inline;
+    width: unset;
 }
 *:focus, *:active {
     outline: none;

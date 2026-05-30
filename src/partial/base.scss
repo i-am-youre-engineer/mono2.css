@@ -45,10 +45,10 @@ a {
 hr {
   height: 0;
   border: 0;
-  margin: 56px 0;
+  margin: 1em 0;
   box-sizing: content-box;
   overflow: visible;
-  border-top: 1px solid #eee;
+  border-top: 2px solid $color-black;
 }
 
 ._center {

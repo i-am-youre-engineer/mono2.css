@@ -4,10 +4,6 @@
 
 ![;)](https://raw.githubusercontent.com/kokushin/mono.css/master/docs/img/share.png)
 
-[![npm version](https://badge.fury.io/js/mono.css.svg)](https://badge.fury.io/js/mono.css)
-[![npm download](http://img.shields.io/npm/dm/mono.css.svg)](https://www.npmjs.com/package/mono.css)
-[![GitHub license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://raw.githubusercontent.com/kokushin/mono.css/master/LICENSE)
-
 ## Feature
 
 Mono.css is a minimal CSS framework (2kB). <br>A simple monochrome design can be applied and only a minimum style is prepared so that users can freely expand.
